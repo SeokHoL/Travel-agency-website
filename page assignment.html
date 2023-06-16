@@ -5,7 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>석호필투어</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+
+        function boxclick(){
+            $('.image2').fadeIn();
+            $('.image2').fadeIn("slow");
+            $('.image2').fadeIn(3000);
+        
+        }
+
+        function goToSubpage(url) {
+        window.location.href = url;
+        }
+        
+        
+        function goToSubpage(url) {
+            window.location.href = url;
+        }
+        $(document).ready(function() {
+               $('#chatbut').click(function(event) {
+                event.preventDefault();
+                alert("채팅상담 준비중입니다");
+            });
+            $('#topbut').click(function(event) {
+                event.preventDefault();
+                $(window).scrollTop(0)
+            });
+        });
+        
+
+
+
+
+        </script>
+
     <style>
+        #botbutton {
+        background-image: url("img/chatting\ \(2\).jpg");
+            width: 38px;
+            height: 40px;
+            }
+
+
+
+.image {
+            width: 200px;
+            height: 150px;
+            transition: transform 0.3s ease;
+        }
+
+        .image:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+       
+
         .outer-menu-item{
             display: inline-block;
         }
@@ -25,7 +80,7 @@
         }
 
         .image2{
-            
+            display: none;
            width: 700px;
            height: 200px;
         }
@@ -75,19 +130,75 @@
             text-decoration: none;
             color: black;
         }
+        @media screen and (max-width: 767px) {
+    .nav__menu {
+    position: fixed;
+    background-color: var(--body-color);
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100%;
+    box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
+    padding: 3rem;
+    transition: 0.4s;
+  }
+}
 
+    .show-menu {
+    right: 0;
+    }
+
+    #side{
+        position: fixed;
+        width: 118px;
+        height: 140px;
+        right:20px;
+        bottom :100px;
+    }
+    #botbutton{
+        
+        width: 118px;
+        height: 110px;
+        border : 1px solid black;
+        background-color: magenta;
+        z-index: 50;
+    }
+    #tobbutton{
  
 
+        width: 118px;
+        height: 29px;
+        border : 1px solid black;
+        z-index: 50;
+        background-color: whitesmoke;
+    }
     </style>
    
 </head>
 <body>
+    <div id="side_all">
+        <div id="chatbot">
+        
+        </div>   
+        <div id="side">
+        <a id="chatbut" href="#">
+        <div id="botbutton"></div>
+        </a>
+        <a href="#" id="topbut">
+        <div id="tobbutton">
+        <sapn style="font-weight: bold;">▲TOP</sapn>
+        </div>    
+        </a>
+    </div>
+    </div>
+    
     <!--div 전체를 감싸는 태그-->
     <div id="page-wrapper">
         <header id="main-header">
             <hgroup><!--여러제목이 나오는 태그-->
           
                 <h1 class="head-title">석호필 투어</h1>
+                
                 <br>
                 <h3 class="head">청춘과 함께하는 2030여행 </h3>
             </hgroup>
@@ -119,6 +230,9 @@
                             </ul>
                         </li>
 
+                      
+                        </li>
+
                         <ul class="login">
                             <a href="loginpage.html"><li>로그인</li></a>   
                             <a href="membership.html"><li>회원가입</li></a>   
@@ -132,16 +246,16 @@
                 <section id="main-section">
                     <article>
                         <div class="article-header">
-                            <h1 class="article-title">석호필이 꿈꾸는 일상감옥 탈출 세미패키지</h1>
+                            <h1 class="article-title">▼사진을 누르면 페이지 이동 합니다▼</h1>
                         </div>
                         <table>
                             <tr>
-                                <td><img class="image" src="img/paris.jpg" ></td>
-                                <td><img class="image" src="img/kyoto.jpg"></td>
-                                <td><img class="image" src="img/praha.jpg"></td>
-                                <td><img class="image" src="img/Tokyo.jpg"></td>
-                                <td><img class="image" src="img/croatia.jpg"></td>
-                                <td><img class="image" src="img/otaru2.jpg"></td>
+                                <td><img class="image" src="img/paris.jpg" onclick="goToSubpage('subpage02.html')"></td>
+                                <td><img class="image" src="img/kyoto.jpg" onclick="goToSubpage('subpage05.html')"></td>
+                                <td><img class="image" src="img/praha.jpg" onclick="goToSubpage('subpage03.html')"></td>
+                                <td><img class="image" src="img/Tokyo.jpg" onclick="goToSubpage('subpage03.html')"></td>
+                                <td><img class="image" src="img/croatia.jpg" onclick="goToSubpage('subpage04.html')"></td>
+                                <td><img class="image" src="img/otaru2.jpg" onclick="goToSubpage('subpage06.html')"></td>
                             </tr>
                         </table>
                         <hr>
@@ -180,15 +294,18 @@
                             </tr>
                         </table>
                         <br>
-                        <div>
+
+                        <div class="box" onclick="boxclick();">
                             <h2>체크포인트</h2>
-                            <p>석호필투어만의 특전</p>
+                            <p>▼클릭▼석호필투어만의 특전▼클릭▼</p>
                         </div>
                         <div>
                             <tr>
                                 <td><img class="image2" src="img/no.jpg"></td>
                             </tr>
                         </div>
+
+                        
                         
                      
 
