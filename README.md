@@ -1,4 +1,4 @@
-# Project Travel-agency-website
+# Project Travel agency website
 
 <img src="https://github.com/user-attachments/assets/bd84cd3a-621e-4d8a-b035-15a1da996092" height="200">
 
