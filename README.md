@@ -1,12 +1,12 @@
 # Project Travel-agency-website
 
-<img src="https://github.com/user-attachments/assets/ca89f5c9-4adf-4bea-b0ca-651e39db93ab" alt="MyBlog Logo" width="200" height="200"> 
+<img src="https://github.com/user-attachments/assets/bd84cd3a-621e-4d8a-b035-15a1da996092" height="200">
 
 ## 1. 프로젝트 소개
 
 Travel-agency-website 프로젝트는 패키지 여행사 사이트 프로젝트입니다.  
-남녀노소 모두가 좋아하는 여행지 유럽, 미국, 일본등 다양한 나라의 패키지 여행상품을 만들었습니다.
-또한 반응형웹도 가능하게 하여 웹앱 어디서든 사용할수 있습니다.
+남녀노소 모두가 좋아하는 여행지 유럽, 미국, 일본등 다양한 나라의 패키지 여행상품을 만들었습니다.    
+각 페이지에는 패키지 설명, 가격 정보, 구매 버튼 등이 포함되어 있습니다.  
 
 ## 2. 소개
 
