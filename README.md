@@ -53,5 +53,5 @@ Travel-agency-website 프로젝트는 패키지 여행사 사이트 프로젝트
 
 ## 5. 시현 영상
 
-![travel](https://github.com/user-attachments/assets/e6bb010c-8acf-4958-ad90-2b895edd846c)
+![bandicam-2024-08-08-09-47-55-224](https://github.com/user-attachments/assets/62dbc580-da53-4668-b508-eb4559642722)
 
