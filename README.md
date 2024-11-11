@@ -53,7 +53,12 @@ Travel-agency-website 프로젝트는 패키지 여행사 사이트 프로젝트
 - **로그인, 회원가입, 각 특정 여행패키지 소개 페이지 구현**
 
 
-## 5. 시현 영상 및 이미지
+## 5. 시현 영상
 
 ![bandicam-2024-08-08-09-47-55-224](https://github.com/user-attachments/assets/62dbc580-da53-4668-b508-eb4559642722)
+
+## 5. 시현 이미지
+<img src="https://github.com/user-attachments/assets/79b202df-7194-4a54-b603-d9ba06faab4f" width="700" height="400" alt="포트폴리오 메인 이미지" />
+<img src="https://github.com/user-attachments/assets/db30302f-9d59-4dde-ad17-bb58bb266b17" width="700" height="400" alt="포트폴리오 메인 이미지" />
+<img src="https://github.com/user-attachments/assets/511d1366-1bcc-4d91-940a-0cdf725905c7" width="700" height="400" alt="포트폴리오 메인 이미지" />
 
