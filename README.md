@@ -42,6 +42,8 @@ Travel-agency-website 프로젝트는 패키지 여행사 사이트 프로젝트
       <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"  height="20">
       <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" height="20">
   ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+- **프레임워크**: 
+  ![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?logo=springboot&logoColor=white&style=flat)
 
 
 ## 4. 구현 핵심 기술
@@ -51,7 +53,7 @@ Travel-agency-website 프로젝트는 패키지 여행사 사이트 프로젝트
 - **로그인, 회원가입, 각 특정 여행패키지 소개 페이지 구현**
 
 
-## 5. 시현 영상
+## 5. 시현 영상 및 이미지
 
 ![bandicam-2024-08-08-09-47-55-224](https://github.com/user-attachments/assets/62dbc580-da53-4668-b508-eb4559642722)
 
